@@ -42,7 +42,7 @@ An embedded system project built to control an LED strip based on motion detecti
 3. Ensure you have the necessary sensors connected to the correct pins.
 
 
-Key Variables
+## Key Variables
 
 Variable			Purpose
 ldrReadings[]			Holds recent LDR values for moving average
@@ -52,3 +52,14 @@ motionDetected			Flag indicating motion has been detected
 ledsEnabled			Tracks the state of the LED strip
 ledOnTime			Timestamp when the LED strip was turned on
 LDR_CALIBRATION_READS		Number of readings during startup to set threshold
+
+## Components Used
+
+1. Arduino UNO/Nano
+2. LDR
+3. HC-SR501 PIR Sensor
+4. 10k ohm resistor (x2)
+5. 330 ohm resistor (x1)
+6. 12 V adapter
+7. 12 V LED Strip (Any strip would do the work)
+8. IRFZ44N MOSFET
